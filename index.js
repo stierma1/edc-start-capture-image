@@ -6,7 +6,7 @@ var uuid = require("uuid");
 
 class CaptureImage extends StartingPoint {
   constructor(){
-    super("captuer-image");
+    super("capture-image");
     this.add(0, "capture-image");
     this.add(1, "pipe-to-buffer");
   }
