@@ -1,6 +1,6 @@
 {
   "name": "edc-start-capture-image",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/stierma1/edc-start-capture-image#readme",
   "dependencies": {
-    "basic-distributed-computation": "^1.0.2"
+    "basic-distributed-computation": "^1.0.2",
+    "uuid": "^2.0.1"
   }
 }
