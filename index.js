@@ -9,7 +9,8 @@ class CaptureImage extends StartingPoint {
     super("capture-image");
     this.add(0, "capture-image");
     this.add(1, "pipe-to-buffer");
-    this.add(2, "jpeg/_output/jpeg-data")
+    this.add(2, "cp/_output/raw");
+    this.add(3, "jpeg/_input/raw/_output/jpeg-data")
   }
 
   createRequest(payload){
